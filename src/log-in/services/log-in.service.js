@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'https://appserviceasimov.azurewebsites.net/auth/';
+const API_URL = 'http://appserviceasimov.azurewebsites.net/auth/';
 
 class AuthService {
     login(user, typeU) {
